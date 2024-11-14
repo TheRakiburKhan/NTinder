@@ -46,6 +46,18 @@ struct CardView: View {
 }
 
 private extension CardView {
+    func swipeRight() {
+        xOffset = 200
+        degree = 12
+    }
+    
+    func swipeLeft() {
+        xOffset = -200
+        degree = -12
+    }
+}
+
+private extension CardView {
     func onDragChanged(_ value: _ChangedGesture<DragGesture>.Value) {
         xOffset = value.translation.width
         degree = Double(value.translation.width / 25)

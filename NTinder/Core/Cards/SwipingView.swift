@@ -21,9 +21,8 @@ struct SwipingView: View {
                 Spacer()
             }
             .padding()
-
             
-            CardView()
+            CardStackView()
             
             Spacer()
         }

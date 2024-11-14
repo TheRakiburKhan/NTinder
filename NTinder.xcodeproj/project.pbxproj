@@ -19,6 +19,8 @@
 		F2936B2B2CE0E79B002FAEE7 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2936B2A2CE0E79B002FAEE7 /* SizeConstants.swift */; };
 		F2936B2D2CE0EAC9002FAEE7 /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2936B2C2CE0EAC9002FAEE7 /* ImageScrollingOverlay.swift */; };
 		F2936B2F2CE1003A002FAEE7 /* CardImageIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2936B2E2CE1003A002FAEE7 /* CardImageIndicatorView.swift */; };
+		F297551E2CE5FF7E00C1AF52 /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F297551D2CE5FF7E00C1AF52 /* CardStackView.swift */; };
+		F29755212CE6396700C1AF52 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29755202CE6396700C1AF52 /* Person.swift */; };
 		F29B8CAC2CD1EE5D00BEF216 /* SwipingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29B8CAB2CD1EE5D00BEF216 /* SwipingView.swift */; };
 		F2BEA25D2CD74B9A005BF6D0 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEA25C2CD74B9A005BF6D0 /* UserInfoView.swift */; };
 		F2BEA25F2CD76308005BF6D0 /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEA25E2CD76308005BF6D0 /* SwipeActionIndicatorView.swift */; };
@@ -57,6 +59,8 @@
 		F2936B2A2CE0E79B002FAEE7 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
 		F2936B2C2CE0EAC9002FAEE7 /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
 		F2936B2E2CE1003A002FAEE7 /* CardImageIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageIndicatorView.swift; sourceTree = "<group>"; };
+		F297551D2CE5FF7E00C1AF52 /* CardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
+		F29755202CE6396700C1AF52 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		F29B8CAB2CD1EE5D00BEF216 /* SwipingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingView.swift; sourceTree = "<group>"; };
 		F2BEA25C2CD74B9A005BF6D0 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 		F2BEA25E2CD76308005BF6D0 /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
@@ -161,6 +165,14 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		F297551F2CE6394400C1AF52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F29755202CE6396700C1AF52 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F29B8CAD2CD1EF7A00BEF216 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +187,7 @@
 		F29B8CAE2CD1EFD200BEF216 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				F297551F2CE6394400C1AF52 /* Model */,
 				F2BEA25A2CD74B6B005BF6D0 /* Views */,
 				F29B8CAB2CD1EE5D00BEF216 /* SwipingView.swift */,
 			);
@@ -219,6 +232,7 @@
 				F2BEA25E2CD76308005BF6D0 /* SwipeActionIndicatorView.swift */,
 				F2936B2C2CE0EAC9002FAEE7 /* ImageScrollingOverlay.swift */,
 				F2936B2E2CE1003A002FAEE7 /* CardImageIndicatorView.swift */,
+				F297551D2CE5FF7E00C1AF52 /* CardStackView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -355,9 +369,11 @@
 			files = (
 				F28F35FA2C12C9CC002FBF6E /* ContentView.swift in Sources */,
 				F2BEA25D2CD74B9A005BF6D0 /* UserInfoView.swift in Sources */,
+				F297551E2CE5FF7E00C1AF52 /* CardStackView.swift in Sources */,
 				F28F36222C133836002FBF6E /* CardView.swift in Sources */,
 				F2936B2D2CE0EAC9002FAEE7 /* ImageScrollingOverlay.swift in Sources */,
 				F2936B2F2CE1003A002FAEE7 /* CardImageIndicatorView.swift in Sources */,
+				F29755212CE6396700C1AF52 /* Person.swift in Sources */,
 				F28F35F82C12C9CC002FBF6E /* TinderCloneAgainApp.swift in Sources */,
 				F29B8CAC2CD1EE5D00BEF216 /* SwipingView.swift in Sources */,
 				F2BEA25F2CD76308005BF6D0 /* SwipeActionIndicatorView.swift in Sources */,
